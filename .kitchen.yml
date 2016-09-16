@@ -8,6 +8,6 @@ verifier:
   name: inspec
 
 suites:
-  - name: 9to12
+  - name: default
     provisioner:
       name: shell

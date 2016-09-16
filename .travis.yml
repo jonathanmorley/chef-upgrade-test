@@ -1,2 +1,6 @@
+branches:
+  only:
+    - master
+
 script:
   - sudo ./bootstrap.sh
