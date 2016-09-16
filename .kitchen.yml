@@ -1,0 +1,13 @@
+driver:
+  name: vagrant
+
+platforms:
+  - name: centos-7.1
+
+verifier:
+  name: inspec
+
+suites:
+  - name: 9to12
+    provisioner:
+      name: shell
